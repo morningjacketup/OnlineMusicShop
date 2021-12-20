@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Rocky_Project.Data;
-using Rocky_Project.Models;
+using Rocky_Models;
+using Rocky_Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Rocky_DataAccess;
 
 namespace Rocky_Project.Controllers
 {
